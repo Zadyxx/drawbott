@@ -13,7 +13,7 @@ bot.login(process.env.TOKEN);
 
 
 
-const uneCommande = '!'
+const uneCommande = '$'
 
 bot.on('message', message => {
   if (message.content.startsWith(uneCommande)) {
