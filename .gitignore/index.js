@@ -15,32 +15,11 @@ bot.login(process.env.TOKEN);
 
 
 
-bot.on('message', message => {
-  if (message.content === PREFIX + "trailer") {
-    message.channel.send("Voici le lien du Trailer: https://www.youtube.com/watch?v=tCCI5TCFn8c");
-  }
-  if (message.content === PREFIX + "info") {
-    let info = new Discord.RichEmbed()
-    .setAuthor('DrawLife V2 | Bot 1.0.0')
-    .setDescription("=========================================")
-    .setColor("#15f153")
-    .addBlankField()
-    .addField("Site:", "http://drawlife.fr/")
-    .addBlankField()
-    .addField("TeamSpeak:", "54.37.126.167:9750")
-    .addBlankField()
-    .addField("Version du bot:", "1.0.0")
-    message.channel.sendEmbed(info);
-  if (message.content === PREFIX + "ouverture" ) {
-    message.channel.send("Le serveur ouvrira d'ici peu! Regarde le salon 'spoils' afin d'en savoir plus !");
-  }
-  } 
-});
 
 
 
 
-const uneCommande = '!'
+const uneCommande = '.'
 
 bot.on('message', message => {
   if (message.content.startsWith(uneCommande)) {
