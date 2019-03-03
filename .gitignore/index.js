@@ -48,3 +48,10 @@ bot.on('message', message => {
     reportschannel.sendEmbed(reportEmbed);
   }
 });
+
+
+bot.on('message', message => {
+  if (message.content === "ouvert") {
+    message.reply("Le serveur est en maintenance car nous passons 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons #annonces et #infotmations pour te mettre à jour et à check le #spoils :wink:")
+  }
+});
