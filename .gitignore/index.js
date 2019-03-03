@@ -49,9 +49,11 @@ bot.on('message', message => {
   }
 });
 
-
 bot.on('message', message => {
   if (message.content === "ouvert") {
-    message.reply("Le serveur est en maintenance car nous passons 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons #annonces et #infotmations pour te mettre à jour et à check le #spoils :wink:")
+    message.reply("Le serveur est en maintenance car nous passons 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons #annonces et #492737650122555393 pour te mettre à jour et à check le #492737707139661825 :wink:")
   }
 });
+
+
+
