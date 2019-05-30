@@ -50,42 +50,41 @@ bot.on('message', message => {
 });
 
 
-const prems = "ouvert";
+let prems = "ouvert";
 bot.on('message', message => {
   if (message.content.includes(prems)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
-const deux = "ouver";
+let deux = "ouver";
 bot.on('message', message => {
   if (message.content.includes(deux)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
-const trois = "ouverts";
+let trois = "ouverts";
 bot.on('message', message => {
   if (message.content.includes(trois)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
-
-const quatre = "ouverture";
+let quatre = "ouverture";
 bot.on('message', message => {
   if (message.content.includes(quatre)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
-const cinq = "ouvre";
+let cinq = "ouvre";
 bot.on('message', message => {
   if (message.content.includes(cinq)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
-const six = "open";
+let six = "open";
 bot.on('message', message => {
   if (message.content.includes(six)) {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
