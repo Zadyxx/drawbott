@@ -52,36 +52,28 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-  if (message.content("ouvert")) {
+  if (message.content === "ouvert") {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
 
 bot.on('message', message => {
-  if (message.content("ouver")) {
+  if (message.content === "ouver") {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
 
 bot.on('message', message => {
-  if (message.content("ouverts")) {
+  if (message.content === "ouverts") {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
 
 
 bot.on('message', message => {
-  if (message.content("ouverture")) {
-    message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
-  }
-});
-
-
-
-bot.on('message', message => {
-  if (message.content("ouvre")) {
+  if (message.content === "ouverture") {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
@@ -89,7 +81,15 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-  if (message.content("open")) {
+  if (message.content === "ouvre") {
+    message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
+  }
+});
+
+
+
+bot.on('message', message => {
+  if (message.content === "open") {
     message.reply("Le serveur est en maintenance car nous passons en 1.12, tout doit être refait en plugin et en mod au niveau du développement. Ce sera ainsi beaucoup plus optimisé, nous améliorons aussi la map et nous rajoutons des nouveautés ! :wink: N'hésite pas à aller dans les salons <#492737586507415583> et <#492737650122555393> pour te mettre à jour et à check le <#492737707139661825> :wink:")
   }
 });
