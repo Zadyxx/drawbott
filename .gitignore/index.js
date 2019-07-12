@@ -96,6 +96,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
   if (message.content === "vip") {
-    message.reply("Le serveur est actuellement ouvert aux beta-testeurs ainsi qu'aux VIP . Ils nous aident à retrouver des bugs et aussi à avoir une avant première au serveur puisqu'ils ont contribué à l'avancement de celui-ci. :Drawlifev2: Pour l'ouverture officielle nous vous donnerons toutes les informations dans <#492737586507415583>")
+    message.reply("Le serveur est actuellement ouvert aux beta-testeurs ainsi qu'aux VIP . Ils nous aident à retrouver des bugs et aussi à avoir une avant première au serveur puisqu'ils ont contribué à l'avancement de celui-ci. Pour l'ouverture officielle nous vous donnerons toutes les informations dans <#492737586507415583>")
   }
 });
